@@ -1,0 +1,38 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    {% tailwind_css %}
+
+    <!-- AlpineJS -->
+    <script
+      src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js"
+      defer
+    ></script>
+
+    <!-- BoxIcons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+    />
+  </head>
+  <body class="bg-gray-100 dark:bg-black flex flex-col justify-center w-3/4 m-auto dark:text-gray-200">
+    
+    {% block navbar %} {% endblock navbar %}
+
+		{% block left_sidebar %} {% endblock left_sidebar %} 
+		
+    {% block content %} {% endblock content %} 
+		
+    {% block right_sidebar %} {% endblock right_sidebar %} 
+		
+    {% block footer %} {% endblock footer %} 
+		
+    {% block javascript %} {% endblock javascript %}
+  
+  </body>
+</html>

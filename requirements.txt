@@ -1,0 +1,30 @@
+django==5.0
+django-cors-headers==4.3.1
+django-environ==0.11.2
+djangorestframework==3.12.4
+stripe==7.10.0
+boto3==1.34.11
+django-storages==1.14.2
+django-taggit==5.0.1
+django-allauth==0.59.0
+django-rest-auth==0.9.5
+django-crispy-forms==2.1
+crispy-tailwind==0.5.0
+django-ckeditor==6.7.0
+django-tailwind==3.8.0
+markdown==3.5.1
+gunicorn==21.2.0
+whitenoise==6.6.0
+channels==4.0.0
+django-redis==5.4.0
+sqlparse==0.4.4
+asgiref==3.7.2
+pytz==2023.3.post1
+mutagen==1.47.0
+# django-celery-beat==2.5.0
+celery==5.3.6
+python-dateutil==2.8.2
+django_browser_reload==1.12.1
+# argon2-cffi==20.1.0, first use python -Im pip install -U cffi pip setuptools, and after use python -Im pip install argon2-cffi
+# psycopg2==2.8.6 use pip install psycopg2
+# pillow==8.2.0 
